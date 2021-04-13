@@ -14,9 +14,9 @@ def primo(n):
 
        
 def n_primo(n):
-    if (n < 2):
+    if (n < 2): # se numero for menor que 2 não tem primo
         return 0
-    elif (n == 2):
+    elif (n == 2): # se numero for 2 tem primo, sendo assim o proprio 2
         return 1
     else:
         contador = 1
